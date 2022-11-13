@@ -1,0 +1,253 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Cactus::Start()
+extern void Cactus_Start_m3A2483B0CC76CE651A3FBDCB37CADFD9B9A9DE76 (void);
+// 0x00000002 System.Void Cactus::Update()
+extern void Cactus_Update_m6D0B4FABECD0FB12DB871C25CBAFD4523BC4D035 (void);
+// 0x00000003 System.Void Cactus::.ctor()
+extern void Cactus__ctor_m5313FA50B6884AC0440CB39F8ACB1728A83BE9DA (void);
+// 0x00000004 System.Void Dino::Start()
+extern void Dino_Start_m4C8ED7CA0BA3AC52B2EBA267D6F22A26890E84F5 (void);
+// 0x00000005 System.Void Dino::Update()
+extern void Dino_Update_mAEBE1CCBCB116FF331748A844BFE493DA69E585E (void);
+// 0x00000006 System.Void Dino::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern void Dino_OnCollisionEnter2D_mE13047C4DA8B6BEEA1CF64F3A14178FFDCC43C6C (void);
+// 0x00000007 System.Void Dino::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void Dino_OnTriggerEnter2D_m0F5CB9C865869542BE3BC2596AC6A226D224D987 (void);
+// 0x00000008 System.Void Dino::.ctor()
+extern void Dino__ctor_mDA7BCC2CC9E8288656A099127325F3804EABD85B (void);
+// 0x00000009 System.Void Dino2::Start()
+extern void Dino2_Start_mA48AD3A0BA2EA9A7B5200AE270CC9F29B991768A (void);
+// 0x0000000A System.Void Dino2::Update()
+extern void Dino2_Update_m37D777D64B4EE1841E72AA0967F61ED7AD81A02E (void);
+// 0x0000000B System.Void Dino2::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void Dino2_OnTriggerEnter2D_m223E95F048779909E1DBBD695530DB5EF5BC79E5 (void);
+// 0x0000000C System.Void Dino2::.ctor()
+extern void Dino2__ctor_m4D9472EB7DDAB96651B65D107356AFA9B32B43AF (void);
+// 0x0000000D System.Void FlyBird::Start()
+extern void FlyBird_Start_mC5CCFF1783740E87CBDC1F4869A22AD4BBB40567 (void);
+// 0x0000000E System.Void FlyBird::Update()
+extern void FlyBird_Update_mE285F34A2F9B5C62C2497C641A22455824E699BE (void);
+// 0x0000000F System.Void FlyBird::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern void FlyBird_OnCollisionEnter2D_m4E18461CC72B3A318F81B18A8316E4380EDAC8F6 (void);
+// 0x00000010 System.Collections.IEnumerator FlyBird::FlashCo()
+extern void FlyBird_FlashCo_mBF1E7594B87AD559F0DD57C7BC61FE7A5B152632 (void);
+// 0x00000011 System.Void FlyBird::.ctor()
+extern void FlyBird__ctor_mC07E73E2BDF3ECB42C4A0F3109DAC069451AA548 (void);
+// 0x00000012 System.Void FlyBird/<FlashCo>d__12::.ctor(System.Int32)
+extern void U3CFlashCoU3Ed__12__ctor_mC065C40D6870B25CAFA3C7B10C48DEDB4BB16985 (void);
+// 0x00000013 System.Void FlyBird/<FlashCo>d__12::System.IDisposable.Dispose()
+extern void U3CFlashCoU3Ed__12_System_IDisposable_Dispose_m84FD263684D1A1D626712315F765B0780C715A73 (void);
+// 0x00000014 System.Boolean FlyBird/<FlashCo>d__12::MoveNext()
+extern void U3CFlashCoU3Ed__12_MoveNext_m1067DB3D13A1B305C920221BE810ADF44B3938E5 (void);
+// 0x00000015 System.Object FlyBird/<FlashCo>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CFlashCoU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BC0BECE9C74996A350D7126F9EFFD67BB8D755B (void);
+// 0x00000016 System.Void FlyBird/<FlashCo>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CFlashCoU3Ed__12_System_Collections_IEnumerator_Reset_mDBD8B667936B791F04060C4E2C963111F04314A1 (void);
+// 0x00000017 System.Object FlyBird/<FlashCo>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CFlashCoU3Ed__12_System_Collections_IEnumerator_get_Current_m763718550F52A444504F5A7CD67839B822997035 (void);
+// 0x00000018 System.Void GameManager::Start()
+extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
+// 0x00000019 System.Void GameManager::GameOver()
+extern void GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625 (void);
+// 0x0000001A System.Void GameManager::RestartGame()
+extern void GameManager_RestartGame_m03813C863F1F1ABB9DC30BC371E2F088D7B01F75 (void);
+// 0x0000001B System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+// 0x0000001C System.Void GroundMove::Start()
+extern void GroundMove_Start_mB0D1217AF3F037ABDD2AD7D23F8C255A6BEFAAD4 (void);
+// 0x0000001D System.Void GroundMove::Update()
+extern void GroundMove_Update_mB8B66EA23C26A1E70781D95A5FC427102BC88743 (void);
+// 0x0000001E System.Void GroundMove::.ctor()
+extern void GroundMove__ctor_m84D4804FDCD4AFFA28F73D23AE5C20E39E1E1095 (void);
+// 0x0000001F System.Void MoveLeft::Start()
+extern void MoveLeft_Start_mC7C29FBF538971ED37B9C3A33A5C61C3F64BB30C (void);
+// 0x00000020 System.Void MoveLeft::Update()
+extern void MoveLeft_Update_mC38B78A98EA1362EA0B82B703440FC57EB0E098F (void);
+// 0x00000021 System.Void MoveLeft::.ctor()
+extern void MoveLeft__ctor_mAE79A11856F61F384C0A556E74280892922F0A97 (void);
+// 0x00000022 System.Void Obstacles::Start()
+extern void Obstacles_Start_mF51D79F86D3D74AA94B513D1E3C0C3D49A180A21 (void);
+// 0x00000023 System.Void Obstacles::Update()
+extern void Obstacles_Update_m827984B8BFA5DC12E80FA5C2A3683BC59A72A205 (void);
+// 0x00000024 System.Void Obstacles::GenerateObstacle()
+extern void Obstacles_GenerateObstacle_m065D37A628EE0F5B194C735E957B35DE5D1214E9 (void);
+// 0x00000025 System.Void Obstacles::.ctor()
+extern void Obstacles__ctor_mE1304D3BA1B80512982A8A0A78437EAB18D061B9 (void);
+// 0x00000026 System.Void PipeSpawner::Start()
+extern void PipeSpawner_Start_m9F6ED44EB7D89C1CA2D049EC58307A2EDCF5A4F7 (void);
+// 0x00000027 System.Void PipeSpawner::Update()
+extern void PipeSpawner_Update_m7C48F57C52C82127108D4E4EE5AFEC64D1E05ACA (void);
+// 0x00000028 System.Void PipeSpawner::.ctor()
+extern void PipeSpawner__ctor_m40436CAE22058599D2A1EC8B56D8E8EE7979DE0A (void);
+// 0x00000029 System.Void RepeatBg::Start()
+extern void RepeatBg_Start_m325452A135BF4D6972583F3217E0507B1B2AEBEF (void);
+// 0x0000002A System.Void RepeatBg::Update()
+extern void RepeatBg_Update_m7421CA9D924571454487A00533A12B8B227A5079 (void);
+// 0x0000002B System.Void RepeatBg::Reposition()
+extern void RepeatBg_Reposition_m73C7AE17374A901AA3B465D42E9FC40243153061 (void);
+// 0x0000002C System.Void RepeatBg::.ctor()
+extern void RepeatBg__ctor_mE785BFD19D8C92BFAB72F1062C99AFFEDE67A282 (void);
+// 0x0000002D System.Void Score::Start()
+extern void Score_Start_m9851EAC634456AE4AD4D1163695A64EB3E4AA8FF (void);
+// 0x0000002E System.Void Score::Update()
+extern void Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A (void);
+// 0x0000002F System.Void Score::.ctor()
+extern void Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670 (void);
+// 0x00000030 System.Void Spawner::Start()
+extern void Spawner_Start_m8BB68F2141CF386C08091E93308438F56B08EE73 (void);
+// 0x00000031 System.Void Spawner::Update()
+extern void Spawner_Update_m6DAC21E4E2E5A3C46C3F3EE45A3358909808DDC5 (void);
+// 0x00000032 System.Void Spawner::a()
+extern void Spawner_a_m632A40FFB94171140E11AA703B30AEDC59450609 (void);
+// 0x00000033 System.Void Spawner::.ctor()
+extern void Spawner__ctor_mBF592E8E9B5682687D8C28E73A64BF29B6BF2088 (void);
+// 0x00000034 System.Void Readme::.ctor()
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+// 0x00000035 System.Void Readme/Section::.ctor()
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+static Il2CppMethodPointer s_methodPointers[53] = 
+{
+	Cactus_Start_m3A2483B0CC76CE651A3FBDCB37CADFD9B9A9DE76,
+	Cactus_Update_m6D0B4FABECD0FB12DB871C25CBAFD4523BC4D035,
+	Cactus__ctor_m5313FA50B6884AC0440CB39F8ACB1728A83BE9DA,
+	Dino_Start_m4C8ED7CA0BA3AC52B2EBA267D6F22A26890E84F5,
+	Dino_Update_mAEBE1CCBCB116FF331748A844BFE493DA69E585E,
+	Dino_OnCollisionEnter2D_mE13047C4DA8B6BEEA1CF64F3A14178FFDCC43C6C,
+	Dino_OnTriggerEnter2D_m0F5CB9C865869542BE3BC2596AC6A226D224D987,
+	Dino__ctor_mDA7BCC2CC9E8288656A099127325F3804EABD85B,
+	Dino2_Start_mA48AD3A0BA2EA9A7B5200AE270CC9F29B991768A,
+	Dino2_Update_m37D777D64B4EE1841E72AA0967F61ED7AD81A02E,
+	Dino2_OnTriggerEnter2D_m223E95F048779909E1DBBD695530DB5EF5BC79E5,
+	Dino2__ctor_m4D9472EB7DDAB96651B65D107356AFA9B32B43AF,
+	FlyBird_Start_mC5CCFF1783740E87CBDC1F4869A22AD4BBB40567,
+	FlyBird_Update_mE285F34A2F9B5C62C2497C641A22455824E699BE,
+	FlyBird_OnCollisionEnter2D_m4E18461CC72B3A318F81B18A8316E4380EDAC8F6,
+	FlyBird_FlashCo_mBF1E7594B87AD559F0DD57C7BC61FE7A5B152632,
+	FlyBird__ctor_mC07E73E2BDF3ECB42C4A0F3109DAC069451AA548,
+	U3CFlashCoU3Ed__12__ctor_mC065C40D6870B25CAFA3C7B10C48DEDB4BB16985,
+	U3CFlashCoU3Ed__12_System_IDisposable_Dispose_m84FD263684D1A1D626712315F765B0780C715A73,
+	U3CFlashCoU3Ed__12_MoveNext_m1067DB3D13A1B305C920221BE810ADF44B3938E5,
+	U3CFlashCoU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BC0BECE9C74996A350D7126F9EFFD67BB8D755B,
+	U3CFlashCoU3Ed__12_System_Collections_IEnumerator_Reset_mDBD8B667936B791F04060C4E2C963111F04314A1,
+	U3CFlashCoU3Ed__12_System_Collections_IEnumerator_get_Current_m763718550F52A444504F5A7CD67839B822997035,
+	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
+	GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625,
+	GameManager_RestartGame_m03813C863F1F1ABB9DC30BC371E2F088D7B01F75,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	GroundMove_Start_mB0D1217AF3F037ABDD2AD7D23F8C255A6BEFAAD4,
+	GroundMove_Update_mB8B66EA23C26A1E70781D95A5FC427102BC88743,
+	GroundMove__ctor_m84D4804FDCD4AFFA28F73D23AE5C20E39E1E1095,
+	MoveLeft_Start_mC7C29FBF538971ED37B9C3A33A5C61C3F64BB30C,
+	MoveLeft_Update_mC38B78A98EA1362EA0B82B703440FC57EB0E098F,
+	MoveLeft__ctor_mAE79A11856F61F384C0A556E74280892922F0A97,
+	Obstacles_Start_mF51D79F86D3D74AA94B513D1E3C0C3D49A180A21,
+	Obstacles_Update_m827984B8BFA5DC12E80FA5C2A3683BC59A72A205,
+	Obstacles_GenerateObstacle_m065D37A628EE0F5B194C735E957B35DE5D1214E9,
+	Obstacles__ctor_mE1304D3BA1B80512982A8A0A78437EAB18D061B9,
+	PipeSpawner_Start_m9F6ED44EB7D89C1CA2D049EC58307A2EDCF5A4F7,
+	PipeSpawner_Update_m7C48F57C52C82127108D4E4EE5AFEC64D1E05ACA,
+	PipeSpawner__ctor_m40436CAE22058599D2A1EC8B56D8E8EE7979DE0A,
+	RepeatBg_Start_m325452A135BF4D6972583F3217E0507B1B2AEBEF,
+	RepeatBg_Update_m7421CA9D924571454487A00533A12B8B227A5079,
+	RepeatBg_Reposition_m73C7AE17374A901AA3B465D42E9FC40243153061,
+	RepeatBg__ctor_mE785BFD19D8C92BFAB72F1062C99AFFEDE67A282,
+	Score_Start_m9851EAC634456AE4AD4D1163695A64EB3E4AA8FF,
+	Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A,
+	Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670,
+	Spawner_Start_m8BB68F2141CF386C08091E93308438F56B08EE73,
+	Spawner_Update_m6DAC21E4E2E5A3C46C3F3EE45A3358909808DDC5,
+	Spawner_a_m632A40FFB94171140E11AA703B30AEDC59450609,
+	Spawner__ctor_mBF592E8E9B5682687D8C28E73A64BF29B6BF2088,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+};
+static const int32_t s_InvokerIndices[53] = 
+{
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3203,
+	3203,
+	3947,
+	3947,
+	3947,
+	3203,
+	3947,
+	3947,
+	3947,
+	3203,
+	3860,
+	3947,
+	3184,
+	3947,
+	3794,
+	3860,
+	3947,
+	3860,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+	3947,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	53,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
